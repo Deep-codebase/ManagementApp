@@ -9,12 +9,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootApplication
-public class ManagementAppApplication {/*extends SpringBootServletInitializer {
+public class ManagementAppApplication extends SpringBootServletInitializer {
 
 	  @Override
 	  protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 	    return application.sources(ManagementAppApplication.class);
-	  }*/
+	  }
 
 	public static void main(String[] args) {
 		SpringApplication.run(ManagementAppApplication.class, args);
